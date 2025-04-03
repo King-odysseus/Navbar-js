@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #e3f4ff;
+  --secondary-color: #738594;
+  --accent-color: #201335;
+  --background-color: #d0d1d2;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--background-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.menu-list li {
+  position: relative;
+}
